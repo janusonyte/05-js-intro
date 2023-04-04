@@ -44,7 +44,7 @@ const strAnswer = string1 + ' ' + string2 + ' ' + string3;
 console.log(strAnswer);
 
 
-/* IF */
+/* IF, VARIABLES */
 
 //Uzduotis #0
 
@@ -57,5 +57,34 @@ if (a1 < b1) {
     console.log("Badykite kitą kartą.")
 }
 
-//Uzduotis #1
+console.log('end');
+//Uzduotis #1+2
+console.log(a1 > b1);
+console.log(a1 < b1);
+console.log(a1 == b1);
+console.log(a1 != b1);
+console.log(a1 >= b1);
+console.log(a1 <= b1);
+
+console.log('end number comparison');
+//Uzduotis #2+3
+const txt1 = "life";
+const txt2 = "lemons";
+
+console.log(txt1.length > txt2.length);
+console.log(txt1.length < txt2.length);
+console.log(txt1.length == txt2.length);
+console.log(txt1.length != txt2.length);
+console.log(txt1.length >= txt2.length);
+console.log(txt1.length <= txt2.length);
+console.log('end text comparison');
+
+//Uzduotis #4+5
+const listLen = ['make', 'lemonade'];
+console.log(listLen[0].length > listLen[1].length);
+console.log(listLen[0].length < listLen[1].length);
+console.log(listLen[0].length == listLen[1].length);
+console.log(listLen[0].length != listLen[1].length);
+console.log(listLen[0].length >= listLen[1].length);
+console.log(listLen[0].length <= listLen[1].length);
 
