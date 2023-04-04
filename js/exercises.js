@@ -99,19 +99,19 @@ for (let index = 0; index < 0; index++) {
     console.log(element);
 }
 
-let num = 0
+let num = 0;
 for (let index = 0; index < 5; index++) {
     num = num + index;
     console.log(num);
 }
 
-let num2 = 0
+let num2 = 0;
 for (let index = 0; index < 101; index++) {
     num2 = num2 + index;
     console.log(num2);
 }
 
-let num3 = 0
+let num3 = 0;
 for (let index = 574; index < 815; index++) {
     num3 = num3 + index;
     console.log(num3);
@@ -126,10 +126,19 @@ console.clear();
 // console.log(num4)
 // console.log('end loop1');
 
-let num5 = 0
+let num5 = 0;
 for (let index = -70; index <= 30; index++) {
     num5 = num5 + index;
     console.log(num5);
 }
 console.log(num5)
 console.log('end loop2');
+
+let normal = "abcdef";
+let reversed = "";
+
+for (let index = normal.length -1; index >= 0; index--) {
+    reversed = reversed + normal[index];
+    console.log(reversed);
+}
+
