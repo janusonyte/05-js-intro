@@ -13,14 +13,8 @@ console.log('Labas rytas,' + firstname + '!');
 const pasisveikinimas = 'Labas rytas, ' + firstname + '!';
 console.log(pasisveikinimas);
 
-//Uzduotis #2
 
-const string1 = "a";
-console.log(string1);
-const string2 = "b";
-console.log(string2);
-const string3 = "c";
-console.log(string3);
+
 
 //Kabutes
 

@@ -6,3 +6,5 @@ const paskutinioIndexas = pazymiai.length-1;
 console.log('Pazymiu kiekis:', pazymiai.length);
 console.log('Paskutinis pazymys:', pazymiai[paskutinioIndexas]);
 console.log('Paskutinis pazymys:', pazymiai[pazymiai.length-1]);
+
+
