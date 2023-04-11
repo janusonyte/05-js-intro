@@ -275,3 +275,38 @@ console.log( didziausiasSkaiciusSarase( [ 69, 69, 69, 69, 66 ] ) );
 console.log( didziausiasSkaiciusSarase( [ -1, -2, -3, -4, -5, -6, -7, -8 ] ) );
 console.log( didziausiasSkaiciusSarase( "pomidoras" ) );
 console.log( didziausiasSkaiciusSarase( [] ) );
+console.log("END");
+
+function isrinktiRaides(a, b){
+    if (typeof a !== "string") {
+        return "Pirmasis kintamasis yra netinkamo tipo."
+    } else {
+        if (a.length === 0 || a.length > 100) {
+            return "Pirmojo kintamojo reikšmė yra netinkamo dydžio."
+        } else {
+            if (typeof b !== "number" || isNaN(b) === true) {
+                return "Antrasis kintamasis yra netinkamo tipo."
+            } else {
+                if(b <= 0){
+                    return "Antrasis kintamasis turi būti didesnis už nulį."
+                } else {
+                    if (a.length < b) {
+                        return "Antrasis kintamasis turi būti ne didesnis už pateikto teksto ilgį."
+                    } else {
+                        let str = '';
+                        for(let i = b-1; i < a.length; i =i + b){
+                            str = str + a[i];
+                        }
+                        return str;
+                    }
+                }
+            }
+        }
+    }
+}
+
+console.log( isrinktiRaides( "abcdefg", 2 ) );
+console.log( isrinktiRaides("abcdefghijkl", 3) );
+console.log( isrinktiRaides( "abc", 0 ) );
+console.log( isrinktiRaides( "abc", 4 ) );
+console.log( isrinktiRaides( 1561, 2 ) );
