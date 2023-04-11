@@ -250,3 +250,28 @@ console.log(skaitmenuKiekisSkaiciuje(true));
 console.log(skaitmenuKiekisSkaiciuje("asd"));
 console.log(skaitmenuKiekisSkaiciuje(NaN));
 
+console.log("END");
+
+function didziausiasSkaiciusSarase(a) {
+    
+    if(Array.isArray(a) !== true) {
+        return "Pateikta netinkamo tipo reikšmė."
+    } else if (a.length === 0) {
+        return "Pateiktas sąrašas negali būti tuščias."
+    } else {
+        let max = a[0];
+        for (let i = 0; i < a.length; i++) {
+            if (a[i] > max) {
+                max = a[i];
+            }
+        }
+        return max;
+    }
+}
+console.log( didziausiasSkaiciusSarase( [ 1 ] ) );
+console.log( didziausiasSkaiciusSarase( [ 1, 2, 3 ] ) );
+console.log( didziausiasSkaiciusSarase( [ -5, 78, 14, 0, 18 ] ) );
+console.log( didziausiasSkaiciusSarase( [ 69, 69, 69, 69, 66 ] ) );
+console.log( didziausiasSkaiciusSarase( [ -1, -2, -3, -4, -5, -6, -7, -8 ] ) );
+console.log( didziausiasSkaiciusSarase( "pomidoras" ) );
+console.log( didziausiasSkaiciusSarase( [] ) );
