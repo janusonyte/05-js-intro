@@ -5,6 +5,11 @@
   "main": "index.js",
   "scripts": {
     "exercises" : "nodemon ./js/exercises.js",
+    "mathops" : "nodemon ./js/10-math-ops.js",
+    "for" : "nodemon ./js/09-for.js",
+    "ifs" : "nodemon ./js/08-ifs.js",
+    "functions" : "nodemon ./js/07-functions.js",
+    "objects" : "nodemon ./js/06-objects.js",
     "typeof" : "nodemon ./js/05-typeof.js",
     "arrays" : "nodemon ./js/04-arrays.js",
     "booleans" : "nodemon ./js/03-booleans.js",

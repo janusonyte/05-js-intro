@@ -211,4 +211,42 @@ console.log(`Skaiciu intervale tarp -18 ir 18, besidalijanciu be liekanos is 5 y
 console.log(`Skaiciu intervale tarp -18 ir 18, besidalijanciu be liekanos is 7 yra ` + counter9 + ` vienetai.`);
 
 
+console.clear();
+console.log("Funkcijos:");
+
+//Uzduotis 1:
+function tusciaFunkcija() {
+    return false;
+}
+console.log(tusciaFunkcija());
+
+//Uzduotis 2:
+
+function daugyba(num1, num2) {
+    const sandauga = num1 * num2;
+    return sandauga;
+}
+console.log(daugyba(1,2));
+console.log(daugyba(3,2));
+console.log(daugyba(1,3));
+console.log("END");
+
+function skaitmenuKiekisSkaiciuje(a) {
+    if (isNaN(a) == true) {
+        return "Pateikta netinkamo tipo reikšmė."
+    } else if (typeof a !== "number" ) {
+        return "Pateikta netinkamo tipo reikšmė."
+    }
+    else {
+        const len = a.toString().length;
+        return len;
+    }
+}
+
+console.log(skaitmenuKiekisSkaiciuje(5));
+console.log(skaitmenuKiekisSkaiciuje(781));
+console.log(skaitmenuKiekisSkaiciuje(37060123456));
+console.log(skaitmenuKiekisSkaiciuje(true));
+console.log(skaitmenuKiekisSkaiciuje("asd"));
+console.log(skaitmenuKiekisSkaiciuje(NaN));
 
