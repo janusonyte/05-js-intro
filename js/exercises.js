@@ -294,7 +294,7 @@ function isrinktiRaides(a, b){
                         return "Antrasis kintamasis turi būti ne didesnis už pateikto teksto ilgį."
                     } else {
                         let str = '';
-                        for(let i = b-1; i < a.length; i =i + b){
+                        for(let i = b-1; i < a.length; i = i + b){
                             str = str + a[i];
                         }
                         return str;
@@ -310,3 +310,9 @@ console.log( isrinktiRaides("abcdefghijkl", 3) );
 console.log( isrinktiRaides( "abc", 0 ) );
 console.log( isrinktiRaides( "abc", 4 ) );
 console.log( isrinktiRaides( 1561, 2 ) );
+
+console.log("END");
+
+function dalyba(a, b) {
+    
+}
