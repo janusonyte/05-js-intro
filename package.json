@@ -4,7 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "exercises" : "nodemon ./js/exercises.js",
+    "spread-rest": "nodemon ./js/17-spread-rest.js",
+    "math-methods": "nodemon ./js/16-math-methods.js",
+    "array-methods": "nodemon ./js/15-array-methods.js",
+    "string-methods": "nodemon ./js/14-string-methods.js",
+    "arrow": "nodemon ./js/13-arrow.js",
+    "ternary": "nodemon ./js/12-ternary.js",
+    "switch": "nodemon ./js/11-switch.js",
     "mathops" : "nodemon ./js/10-math-ops.js",
     "for" : "nodemon ./js/09-for.js",
     "ifs" : "nodemon ./js/08-ifs.js",
@@ -15,6 +21,7 @@
     "booleans" : "nodemon ./js/03-booleans.js",
     "strings" : "nodemon ./js/02-strings.js",
     "numbers" : "nodemon ./js/01-numbers.js",
+    "exercises" : "nodemon ./js/exercises.js",
     "dev" : "nodemon",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
